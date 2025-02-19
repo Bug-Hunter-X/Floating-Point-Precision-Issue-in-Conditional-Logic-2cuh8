@@ -1,0 +1,2 @@
+# Julia Code Bug: Floating-Point Precision
+This repository demonstrates a subtle bug in Julia code related to floating-point precision in conditional statements. The `myfunction` function squares positive numbers and returns 0 for non-positive numbers. However, due to floating point precision, very small negative numbers might be treated as positive which might cause unexpected results. The solution demonstrates a more robust way to handle such situations. 
